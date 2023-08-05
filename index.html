@@ -400,7 +400,7 @@
           </p>
         </div>
         <div class="container-socials">
-          <p class="footer-social">Social media</p>
+          <p class="footer-subtitle">Social media</p>
           <ul class="footer-list list">
             <li class="footer-item">
               <a
@@ -455,6 +455,27 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="container-sunscribe">
+          <p class="footer-subtitle">Subscribe</p>
+          <form class="footer-form">
+            <label aria-label="footer email input" class="footer-input-label">
+              <input
+                type="email"
+                class="footer-input"
+                name="footer-name"
+                placeholder="E-mail"
+              />
+            </label>
+            <div class="subscribe-wrap">
+              <button type="submit" class="footer-btn">
+                Subscribe
+                <svg class="footer-subscribe-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-subscribe"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -526,14 +547,19 @@
               id="policy"
               name="policy"
               value="true"
-              class="modal-check"
+              class="modal-check visually-hidden"
             />
-            <label for="policy" class="modal-check-text"
-              >I accept the terms and conditions of the
+            <label for="policy" class="modal-check-text">
+              <span>
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a href="" class="modal-check-link">Privacy Policy</a></label
             >
           </div>
-          <button type="submit">Send</button>
+          <button type="submit" class="send-btn">Send</button>
         </form>
       </div>
     </div>
