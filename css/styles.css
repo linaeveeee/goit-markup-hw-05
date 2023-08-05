@@ -781,10 +781,6 @@ a {
   margin-bottom: 8px;
 }
 
-.modal-field:not(:last-child) {
-  margin-bottom: 0;
-}
-
 .modal-label {
   display: inline-block;
   color: var(--lightslate);
