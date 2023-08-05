@@ -540,9 +540,9 @@ a {
   border: 1px solid var(--white);
   background-color: transparent;
   color: var(--white);
-  font-style: 12px;
+  font-size: 12px;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
