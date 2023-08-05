@@ -549,11 +549,10 @@ a {
   letter-spacing: 0em;
 }
 
-.subscribe-wrap {
-  position: relative;
-}
-
 .footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 165px;
   height: 40px;
   border: none;
@@ -578,10 +577,7 @@ a {
 
 .footer-subscribe-icon {
   fill: var(--white);
-  position: absolute;
-  right: 24px;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-left: 16px;
 }
 /* ---------------------PORTFOLIO-MENU------------------------------- */
 
