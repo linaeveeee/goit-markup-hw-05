@@ -781,14 +781,6 @@ a {
   margin-bottom: 8px;
 }
 
-.modal-field-comment {
-  margin-bottom: 16px;
-}
-
-.modal-field-privacy {
-  margin-bottom: 24px;
-}
-
 .modal-label {
   display: block;
   color: var(--lightslate);
