@@ -824,6 +824,10 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-textarea-field {
+  margin-bottom: 16px;
+}
+
 .modal-comment {
   width: 100%;
   height: 120px;
@@ -844,13 +848,15 @@ a {
   border-color: var(--iris);
 }
 
+.modal-checkbox-field {
+  margin-bottom: 24px;
+}
+
 .modal-check-text {
   color: var(--lightslate);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
-  align-items: center;
 }
 
 .modal-check-link {
@@ -860,7 +866,24 @@ a {
   margin-left: 4px;
 }
 
-.modal-check-text span {
+/*
+  .modal-check-text span {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid var(--navybluemodal);
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+<*/
+
+.modal-check-span {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -872,10 +895,6 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-check-span {
-  display: inline-flex;
 }
 
 .modal-check:checked + .modal-check-text span {
@@ -900,7 +919,6 @@ a {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
-  margin-top: 24px;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
